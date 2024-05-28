@@ -1,9 +1,10 @@
 
 mod util;
+mod comple_type;
 
-use std::io;
-use rand::Rng;
-use crate::util::add_three;
+// use std::io;
+// use rand::Rng;
+// use crate::util::add_three;
 
 fn main() {
     // println!("guess the number!");
@@ -16,7 +17,26 @@ fn main() {
     //     .read_line(&mut guess)
     //     .expect("failed to read line");
     // println!("your guessed: {guess}, the secret num is {secret_number}");
-    let b = add_three(3);
-    println!("add three is {b}");
+    // let a = 12;
+    // let b = a;
+    //
+    // let s1= String::from("hello world!");
+    // let s2 = s1.clone();
+    //
+    //
+    // println!("{s1},{s2}");
+    //
+    //
+    // let b = add_three(3);
+    // println!("add three is {b}");
+
+    let x = 5;
+    let y = &x;
+
+    assert_eq!(5,x);
+    assert_eq!(5,*y);
+
 
 }
+
+
