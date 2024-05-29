@@ -5,6 +5,7 @@ mod array;
 mod controlle_flow;
 mod r#match;
 mod r#trait;
+mod collections;
 
 // use std::io;
 // use rand::Rng;
