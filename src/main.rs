@@ -1,6 +1,7 @@
 
 mod util;
 mod comple_type;
+mod array;
 
 // use std::io;
 // use rand::Rng;
