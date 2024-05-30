@@ -6,6 +6,7 @@ mod controlle_flow;
 mod r#match;
 mod r#trait;
 mod collections;
+mod closure;
 
 // use std::io;
 // use rand::Rng;
